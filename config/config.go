@@ -6,7 +6,6 @@ var Title string
 var Port string
 
 func Conf() {
-
 	var Vi = viper.New()
 	Vi.SetConfigFile("test.yaml")
 	Vi.ReadInConfig()
